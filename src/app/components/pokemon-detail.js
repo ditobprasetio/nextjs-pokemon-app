@@ -14,7 +14,7 @@ export default function PokemonDetail({ pokemon, error }) {
 
     return (
         <>
-            <div id="pokemon-detail" className="w-full">
+            <div id="pokemon-detail" className="w-full mb-6">
                 <div
                     id="pokemon-card"
                     className="h-[456px] bg-yellow-50 border-[10px] border-yellow-300 p-4 rounded-2xl shadow-xl"

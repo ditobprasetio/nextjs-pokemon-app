@@ -87,8 +87,8 @@ export default function Home() {
                 />
             </div>
 
-            <div className="container mx-auto p-4 max-w-screen-lg flex align-top">
-                <div className="w-2/3">
+            <div className="container mx-auto p-4 max-w-screen-lg flex md:align-top items-center md:flex-row flex-col-reverse justify-center">
+                <div className="md:w-2/3 w-full">
                     <form className="w-full" onSubmit={handleSearchSubmit}>
                         <input
                             type="text"
@@ -120,7 +120,7 @@ export default function Home() {
                 </div>
                 <div
                     id="pokemon-section"
-                    className="w-1/3 min-h-96 px-4 text-center flex justify-center items-center"
+                    className="md:w-1/3 w-full min-h-96 px-4 text-center flex items-center"
                 >
                     {selectedPokemon ? (
                         <PokemonDetail
