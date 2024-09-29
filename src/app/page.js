@@ -109,7 +109,6 @@ export default function Home() {
                         <h2 className="text-xl font-semibold">Suggestions:</h2>
                         {pokemons?.results?.map((pokemon) => (
                             <button
-                                key={pokemon.name}
                                 className="py-2 px-6 m-2 outline-dashed outline-2 outline-blue-800 rounded-full bg-yellow-400 capitalize"
                                 onClick={() => handlePokemonClick(pokemon.url)}
                             >
